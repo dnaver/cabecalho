@@ -1,11 +1,19 @@
 body{                                                                                                                                                        
 background-color: rgb(6, 2, 228);
 }
+img{
+    width: 300px ;
+    height:300px ;
+    border: 10px;
+    margin: 30px;
+}   
 h1{
+    font-size: 30px;
     text-align: center;
+    color: white;
 }
 p{
-    font-size: medium;
+    font-size: 25px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -15,3 +23,22 @@ img{
     height: 400px;
     margin: 90px;
 }
+cabecalho{
+    background-color: aliceblue;
+    display: flex;
+}
+.logoimg{  
+width: 120px;
+margin-left: 200px;
+}
+.listacabecaclho{
+    display: flex;
+}
+.itemlistacabecalho{
+    list-style: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    padding-left: 35px;
+
+}  
